@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace EfScaffoldingProject.Entites
+namespace EfScaffoldingProject.Entities
 {
     public partial class sakilaContext : DbContext
     {

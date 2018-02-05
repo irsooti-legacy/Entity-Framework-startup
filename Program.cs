@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using EfScaffoldingProject.Entites;
+using EfScaffoldingProject.Entities;
 
 namespace EfScaffoldingProject
 {

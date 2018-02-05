@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace EfScaffoldingProject.Entites
+namespace EfScaffoldingProject.Entities
 {
     public partial class FilmCategory
     {

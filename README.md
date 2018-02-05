@@ -3,14 +3,14 @@
  First of all, we have to install all these following packages, paying attention of the  database you want to use.
 
 ## Index
- - [Initial project configuration](#Initial-project-configuration)
- - [Scaffolding existing database](#Scaffolding-existing-database)
- - [Initial project configuration](#Initial-project-configuration)
- - [Scaffolding existing database (Database First)](#Scaffolding-existing-database-(Database-First))
-    - [Scaffold from cli](#Scaffold-from-cli)
-    - [Pluralize the properties in the new DbContext](#Pluralize-the-properties-in-the-new-DbContext)
-    - [Istantiate the DbContext](#Istantiate-the-DbContext)
- - [Create from the scratch (Code First)](#Create-from-the-scratch-(Code-First))
+ - [Initial project configuration](#initial-project-configuration)
+ - [Scaffolding existing database](#scaffolding-existing-database)
+ - [Initial project configuration](#initial-project-configuration)
+ - [Scaffolding existing database (Database First)](#scaffolding-existing-database-(Database-First))
+    - [Scaffold from cli](#scaffold-from-cli)
+    - [Pluralize the properties in the new DbContext](#pluralize-the-properties-in-the-new-DbContext)
+    - [Istantiate the DbContext](#istantiate-the-DbContext)
+ - [Create from the scratch (Code First)](#create-from-the-scratch-(Code-First))
 
  ## Prerequisites
   - Visual studio code
