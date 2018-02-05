@@ -14,7 +14,7 @@
 
  ## Prerequisites
   - Visual studio code
-  - This project uses the Sakila database, available from mysql site used for demo purpose. If you want to follow this guide step-by-step, you can download Sakila db from [here](./SakilaDB/sakila-db.zip).
+  - This project uses the Sakila database, available from mysql site used for demo purpose. If you want to follow this guide step-by-step, you can download Sakila db from [here](./Resource/sakila-db.zip).
  ## Initial project configuration
 
   `dotnet add package` - is the command that adds a package reference to a project file.
