@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Linq;
+using EfScaffoldingProject.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace EfScaffoldingProject
 {
@@ -6,7 +9,14 @@ namespace EfScaffoldingProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var context = new SchoolContext();
+
+            context.Database.EnsureCreated();
+            context.Database.Migrate();
+
+            var count = context.Courses.Count();
+
+            Console.WriteLine($"{count} elements.");
         }
     }
 }
